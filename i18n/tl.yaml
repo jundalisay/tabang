@@ -1,0 +1,32 @@
+- id: name
+  translation: Pangalan
+
+- id: phone
+  translation: Telepono
+
+- id: read_more
+  translation: Magbasa pa
+
+- id: min_read
+  translation: Minuto ng pagbasa
+
+- id: instagram
+  translation: Instagram
+  
+- id: follow_me
+  translation: Follow
+
+- id: first_name
+  translation: First Name
+  
+- id: last_name
+  translation: Last Name
+  
+- id: email
+  translation: Email 
+
+- id: message
+  translation: Mensahe mo... 
+
+- id: submit
+  translation: Submit

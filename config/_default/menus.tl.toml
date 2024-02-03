@@ -1,0 +1,47 @@
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+
+[[main]]
+weight = 2
+name = "Balita"
+hasChildren = true
+
+[[main]]
+parent = "Balita"
+name = "Huling Balita"
+url = "/news"
+
+[[main]]
+parent = "Balita"
+name = "Events"
+url = "/events"
+
+# [[main]]
+# parent = "News"
+# name = "Categories"
+# url = "/categories"
+
+
+[[main]]
+weight = 3
+name = "Advocacies"
+url = "/advocacies"
+
+
+[[main]]
+weight = 4
+name = "About"
+hasChildren = true
+
+[[main]]
+parent = "About"
+name = "About Us"
+url = "/about"
+
+[[main]]
+parent = "About"
+name = "Contact"
+url = "/contact"

@@ -1,0 +1,51 @@
+<meta charset="utf-8" />
+<title>{{ .Title | default site.Title }}</title>
+
+<!-- responsive meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+<!-- theme meta -->
+<meta name="theme-name" content="hugo-boilerplate" />
+
+<!-- favicon -->
+{{ partialCached "favicon" . }}
+
+<!-- manifest -->
+{{ partialCached "manifest" . }}
+
+<!-- site verifications -->
+{{ partialCached "site-verifications.html" . }}
+
+<!-- opengraph and twitter card -->
+{{ partial "basic-seo.html" . }}
+
+<!-- custom script -->
+{{ partialCached "custom-script.html" . }}
+
+<!-- google analytics -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-41JRRDZC90"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-41JRRDZC90');
+</script>
+
+
+<!-- google tag manager -->
+{{ partialCached "gtm.html" . }}
+
+<!-- matomo analytics -->
+{{ partialCached "matomo-analytics.html" . }}
+
+<!--  Baidu analytics -->
+{{ partialCached "baidu-analytics.html" . }}
+
+<!-- Plausible Analytics -->
+{{ partialCached "plausible-analytics.html" . }}
+
+<!-- Counter Analytics -->
+{{ partialCached "counter-analytics.html" . }}

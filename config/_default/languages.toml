@@ -1,0 +1,14 @@
+################################### English language #####################################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+
+################################### French language #####################################
+[tl]
+languageName = "Tl"
+languageCode = "tl-tl"
+contentDir = "content/tagalog"
+weight = 2
